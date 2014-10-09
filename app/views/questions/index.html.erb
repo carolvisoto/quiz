@@ -1,0 +1,35 @@
+<script type="text/javascript">
+	$(function() {
+		startQuestion();	
+	});
+</script>
+
+<div id="container">
+   <div id="welcome">
+	   <p>Welcome!<p>
+	   <p>Are you the person that have curiosaty about your dog or cat personality?</p>
+	   <p>Yes =D! Then you are at right place<p/>
+	   <p>It's a simple quiz when you'll choose <b>Yes</b> or <b> No </b></p>
+	   <p></p>
+	   <p>Are you ready?</p>
+	   <p>Yes =D,cool!</p>
+	   <p>Press <b>Start</b> and enjoy =)<p>
+   </div>
+   <button id="start">Start</button>
+</div>
+
+<div id="message"></div>
+
+
+</br></br>
+<div id="quiz">
+   	<div id="question"></div>
+   	<div id="option">
+          <%= radio_button_tag(:answer, "no") %>
+          <%= label_tag(:answer_lb, "No") %>
+           <%= radio_button_tag(:answer, "yes") %>
+          <%= label_tag(:answer_lb, "Yes") %>
+          </br> 
+          <button id="send">Send</button>
+   	</div>
+</div>
