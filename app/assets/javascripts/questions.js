@@ -46,7 +46,6 @@ function showAnswer() {
    
 }
 function optionChosen(option, animal){
-  console.log("func optionChosen: " + option + " - " + animal);
   if (option === "yes" && animal === "dog") {
       count_dog_option += 1;
       console.log("count dog:" + count_dog_option)
