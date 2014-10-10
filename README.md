@@ -19,4 +19,6 @@ What is necessary to run the application:
 1. ```ENV=test rake db:migrate```
 2. ```rspec spec```
 
+##Production
+go to ```http://personalityquiz.herokuapp.com/```
 
