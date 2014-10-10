@@ -5,11 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.6'
 # Use postgresql as the database for Active Record
 gem 'pg'
-
+#Use rspec as test application
+gem 'rspec-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .js.coffee assets and views
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
