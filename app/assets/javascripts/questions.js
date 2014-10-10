@@ -48,10 +48,8 @@ function showAnswer() {
 function optionChosen(option, animal){
   if (option === "yes" && animal === "dog") {
       count_dog_option += 1;
-      console.log("count dog:" + count_dog_option)
   } else if (option === "yes" && animal === "cat")  {
       count_cat_option += 1;
-      console.log("count cat:" + count_cat_option)
   }
 
 }
