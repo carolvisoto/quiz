@@ -1,5 +1,4 @@
 class QuestionsController < ApplicationController
-	
 	def index
 	end
 
@@ -9,5 +8,4 @@ class QuestionsController < ApplicationController
       @quiz = Question.find_by_id(quiz_rand)
       render json: @quiz
 	end
-
 end
